@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_add"
         app:layout_anchor="id/idBottomBar"
+        android:contentDescription="Add"
         app:layout_anchorGravity="end" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
