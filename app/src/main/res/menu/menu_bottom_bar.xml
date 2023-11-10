@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mDelete"
+        android:icon="@drawable/baseline_delete"
+        android:title="Delete"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/mArchive"
+        android:icon="@drawable/baseline_archive"
+        android:title="Archive"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:title="Turn"
+        android:icon="@drawable/baseline_turn_right"
+        android:id="@+id/mTurn"
+        app:showAsAction="ifRoom"
+        />
+</menu>
